@@ -1,0 +1,68 @@
+{
+  "name": "webpack-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server  --hot --inline --color --hot --config ./webpack/webpack.dev.config.js",
+    "build": "webpack --config ./webpack/webpack.prod.config.js",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-0": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-import": "^1.11.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-mobx": "^2.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.10.0",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "raw-loader": "^0.5.1",
+    "redux-logger": "^3.0.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "4.19.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "3.1.9",
+    "webpack-merge": "^4.1.4"
+  }
+}
